@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calender application - Login</title>
+
+    <!-- Bootstrap/jQuery CDN includes -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="singin.css">
+</head>
+<body>
+<div class="container col-sm-2 col-sm-offset-5">
+
+    <form class="form-signin" action="api.php" method="get" enctype="multipart/form-data">
+        <h2 class="form-signin-heading">Please sign in</h2>
+
+        <label for="inputDisplayName" class="sr-only">Email address</label>
+        <input type="text" id="inputDisplayName" name="inputDisplayName" class="form-control" placeholder="User name" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" name="inputPassword" class="form-control" placeholder="Password" required>
+
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    </form>
+
+</div> <!-- /container -->
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+INSERT INTO `event_table` (`EventID`, `UserID`, `Title`, `Description`, `Location`, `Start`, `End`)
+VALUES ('123123', '123456', 'testing', 'asdfsdfsdfdsf', 'fghrtyhgfhrfh', '2018-05-16 10:17:41', '2018-05-25 14:19:41');

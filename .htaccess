@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+# rules
+RewriteRule ^class$   api.php?class=all [nc,qsa]
+RewriteRule ^class/(\d+)$   api.php?class=$1 [nc,qsa]
